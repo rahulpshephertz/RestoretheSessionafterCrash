@@ -73,9 +73,6 @@ public class ClientSample : MonoBehaviour
 				if (GUI.Button (new Rect (10, 340, 150, 60), "Disconnect")) {
 						WarpClient.GetInstance ().Disconnect ();
 				}
-				if (GUI.Button (new Rect (10, 410, 150, 60), "Raise Exception")) {
-							throw new Exception();
-					}
 		}
 
 		void OnApplicationQuit ()
